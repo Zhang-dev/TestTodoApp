@@ -1,0 +1,6 @@
+pageobjects\todos\Input.class
+pageobjects\todos\TodoApp.class
+pageobjects\todos\TodoList.class
+TodoAppTest\TodoAppTest\TodosTest.class
+automationFrameWork\ScreenshotUtil.class
+automationFrameWork\AutomationFramework.class

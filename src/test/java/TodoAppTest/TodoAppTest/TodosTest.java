@@ -20,8 +20,7 @@ public class TodosTest {
 
 	@Before
 	public void setUp() throws Exception {
-
-		String exePath = "C:/Users/zhang.zhan/Downloads/chromedriver_win32/chromedriver.exe";
+		String exePath = "chromedriver_win32/chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", exePath);
 
 		driver = new ChromeDriver();
