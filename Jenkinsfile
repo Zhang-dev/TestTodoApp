@@ -3,7 +3,6 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat "rmdir /q /s TestTodoApp"
                 bat "git clone https://github.com/Zhang-dev/TestTodoApp.git"
                 bat "mvn clean -f TestTodoApp"
             }
